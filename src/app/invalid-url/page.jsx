@@ -3,5 +3,7 @@ export const metadata = {
 }
 
 export default function InvalidUrlPage () {
-    return <h1>UPS! el link no es valido</h1>
+    return <>
+        <h1>UPS! el link no es valido</h1>
+    </>
 }
