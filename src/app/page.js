@@ -10,7 +10,7 @@ export default function Page() {
         <input type="url" placeholder={"Enter the link here..."}/>
         <Button 
           text="Shorten it"
-          style={{ backgroundColor: 'blue', color: 'white', padding: '10px 20px', margin: '5px' }}
+          style={{ backgroundColor: '#009900', color: 'white', padding: '10px 20px', margin: '5px' }}
           />
     </div>
     <UrlShortedSection/>
