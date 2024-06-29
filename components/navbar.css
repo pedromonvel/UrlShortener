@@ -1,7 +1,11 @@
 .navbar {
     background-color: #343A40;
-    padding: 0 4rem;
-    height: 50px;
+    padding: 23px;
     display: flex;
-    
+    align-items: center;
+    box-shadow: 0px 2px 10px 1px #6c6c6c;
+}
+
+.navbar img {
+    width: 150px;
 }

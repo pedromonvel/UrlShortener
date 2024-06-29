@@ -1,0 +1,11 @@
+.warning-section div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.warning-section div img {
+    width: 80px;
+    margin-bottom: 30px;
+}

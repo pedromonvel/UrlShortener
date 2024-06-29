@@ -11,8 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <NavBar />
-      {children}
+        <NavBar />
+        <section className="main-section">
+          {children}
+        </section>
       </body>
     </html>
   )

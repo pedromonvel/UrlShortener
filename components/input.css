@@ -1,0 +1,54 @@
+.inputWithButton {
+    position: relative;
+    margin: 0px 0px 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputWithButton input {
+    width: 49%;
+    height: 37px;
+    background-color: #E9ECEF;
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    padding-left: 16px;
+}
+
+.input-button {
+    position: absolute;
+    background-color: #009900;
+    font-size: 14px;
+    left: 67.5%;
+    border: 1px solid #33A64C;
+}
+
+@media (max-width: 480px){
+    .input-button {
+        left: 69%;
+    }
+
+    .inputWithButton input {
+        width: 70%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    .input-button {
+        left: 75.5%;
+    }
+
+    .inputWithButton input {
+        width: 75%;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1100px) {
+    .input-button {
+        left: 73.5%;
+    }
+    
+    .inputWithButton input {
+        width: 65%;
+    }
+}

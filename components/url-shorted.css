@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.urlshorted-section {
+    border: 1px solid #CED4DA;
+    background-color: #DAE8FC;
+    margin: 0px 20% 50px 21%;
+    padding: 22px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.urlshorted-link {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    color: #0085FC;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.urlshorted-button {
+    background-color: #0085FC;
+    font-size: 14px;
+    border: 1px solid #599BDE;
+}
+
+@media (max-width: 480px) {
+    .urlshorted-section {
+        margin: 0px 3% 50px 3%;
+    }
+
+    .urlshorted-link {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    .urlshorted-section {
+        margin: 0px 3% 50px 6%;
+    }
+
+    .urlshorted-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1100px) {
+    .urlshorted-section {
+        margin: 0px 9% 50px 11%;
+    }
+}

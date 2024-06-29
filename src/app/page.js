@@ -1,18 +1,13 @@
 
-import Button from "../../components/button"
 import UrlShortedSection from "../../components/url-shorted"
+import "../../components/input.css"
+import InputSection from "../../components/input"
 
 export default function Page() {
   return  <>
     <h1>URLShrt</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <div>
-        <input type="url" placeholder={"Enter the link here..."}/>
-        <Button 
-          text="Shorten it"
-          style={{ backgroundColor: '#009900', color: 'white', padding: '10px 20px', margin: '5px' }}
-          />
-    </div>
+    <p>Acorta tus URLs en segundos y mejora tu presencia online con URLShrt. Simplifica y comparte tus enlaces de forma fácil, segura y rápida. <b>¡Empieza a usarlo ahora!</b></p>
+    <InputSection/>
     <UrlShortedSection/>
   </>
 }
