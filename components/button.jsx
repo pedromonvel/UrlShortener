@@ -4,7 +4,7 @@ export default function Button ({text, style, className}){
     return <>
         <button style={{ 
             color: "white", 
-            height: "40px", 
+            height: "41px", 
             borderRadius: "6px", 
             width: "85px", 
             cursor: "pointer",
